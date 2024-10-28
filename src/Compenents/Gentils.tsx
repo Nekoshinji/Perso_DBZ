@@ -1,8 +1,9 @@
 function Gentils() {
-  return <section>
+  return (
+    <section>
 
 
-  </section>;
-
+    </section>
+  );
 }
 export default Gentils;
