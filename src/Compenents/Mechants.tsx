@@ -1,11 +1,8 @@
-function Mechants ()  {
-return (
-<section>
+function Mechants() {
+  return (
+    <section>
 
-
-</section>
-
-);
-
+    </section>
+  );
 }
-export default Mechants
+export default Mechants;
