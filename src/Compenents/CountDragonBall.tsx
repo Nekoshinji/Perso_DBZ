@@ -5,3 +5,4 @@ function CountDragonBall(){
         </div>
     )
 }
+export default CountDragonBall
