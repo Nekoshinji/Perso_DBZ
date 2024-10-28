@@ -88,7 +88,7 @@ function App() {
 
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <Gentils gentilsData={gentilList[gentilIndex]} />
       <button type="button" onClick={handlePrevClick}>
         Precedent
@@ -104,7 +104,7 @@ function App() {
         Suivant
       </button>
       <CountDragonBall />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
