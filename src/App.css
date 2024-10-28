@@ -1,0 +1,30 @@
+#dragon-ball {
+  height: 4em;
+  width: 4em;
+}
+
+#dragon-ball-button {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#collect-dragon-ball {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+#shenron {
+  height: 25m;
+  width: 20em;
+}
+
+#shenron-summon {
+  text-align: center;
+}
+
+#collect-and-summon-shenron {
+  display: flex;
+  flex-direction: column-reverse;
+}
