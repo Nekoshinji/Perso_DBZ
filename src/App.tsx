@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import Gentils from "./Compenents/Gentils";
 import Mechants from "./Compenents/Mechants";
@@ -53,7 +54,32 @@ const mechantList = [
 
 
 function App() {
- 
+  const [gentilIndex, setGentilIndex] = useState(0);
+
+  const handlePrevClick = () => {
+    if (gentilIndex > 0) {
+      setGentilIndex(gentilIndex - 1);
+    }
+  };
+  const handleNextClick = () => {
+    if (gentilIndex < gentilList.length - 1) {
+      setGentilIndex(gentilIndex + 1);
+    }
+  };
+
+  const [mechantIndex, setMechantIndex] = useState(0);
+
+  const PrevClick = () => {
+    if (mechantIndex > 0) {
+      setMechantIndex(mechantIndex - 1);
+    }
+  };
+  const NextClick = () => {
+    if (mechantIndex < mechantList.length - 1) {
+      setMechantIndex(mechantIndex + 1);
+    }
+  };
+
   return (
     <div>
       <Header />
