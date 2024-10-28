@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./App.css";
 import Gentils from "./Compenents/Gentils";
 import Mechants from "./Compenents/Mechants";
-// import Header from "./Compenents/header";
-// import Footer from "./Compenents/footer";
+import Header from "./Compenents/Header";
+import Footer from "./Compenents/Footer";
 import CountDragonBall from "./Compenents/CountDragonBall";
 
 const gentilList = [
