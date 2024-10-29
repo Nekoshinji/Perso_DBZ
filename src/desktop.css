@@ -1,0 +1,6 @@
+@media screen and (min-width: 600px) { 
+    #Logo {
+        height: 12em;
+        width: 45em;
+    }
+}
