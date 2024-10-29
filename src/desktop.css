@@ -1,6 +1,26 @@
 @media screen and (min-width: 600px) { 
     #Logo {
         height: 12em;
-        width: 45em;
+        width: 40em;
+    }
+    #perso {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+    article.gentils{
+        margin-right: 15px;
+        
+    }
+    article.mechants{
+        margin-left: 15px;
+       
+    }
+    .Image{
+        width: 35em;
+        height: 20em;
+    }
+    p {
+        border: solid black;
+        
     }
 }

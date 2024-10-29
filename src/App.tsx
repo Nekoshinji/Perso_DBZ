@@ -39,17 +39,17 @@ const mechantList = [
   {
     name: "Babidi",
     imgSrc: "../../Images/méchants/babidi.jpg",
-    Description:"Babidi est un magicien très puissant, il est aussi le fils de Bibidi le créateur du monstre Boo, alors il décide de ressusciter Boo pour venger la mort de son père. Lorsqu'il arrive sur Terre, il entend parler de guerriers ayant de très grands pouvoirs, alors il décida d'envoyer ses sbires Yamu et Spopovitch récolter leurs énergies."
+    Description:"Babidi est un magicien très puissant, il est aussi le fils de Bibidi le créateur du monstre Boo, alors il décide de ressusciter Boo pour venger la mort de son père. Lorsqu'il arrive sur Terre, il entend parler de guerriers ayant de très grands pouvoirs."
   },
   {
     name: "Boo",
     imgSrc: "../../Images/méchants/boo.jpg",
-    Description:"Il est l'un des principaux antagonistes du manga Dragon Ball et de la série TV Dragon Ball Z. Il était l'un des ennemis les plus puissants auxquels Gokû et ses amis étaient confrontés, c'est aussi l'une des formes de Boo les plus redoutables."
+    Description:"Il est l'un des principaux antagonistes du manga Dragon Ball et de la série TV Dragon Ball Z. Il était l'un des ennemis les plus puissants auxquels Gokû et ses amis étaient confrontés, c'est aussi l'une des formes de Boo les plus redoutables. Dernier adversaire de Goku"
   },
   {
     name: "Cell",
     imgSrc: "../../Images/méchants/cell.jpg",
-    Description:"Il a été créé à partir des cellules de tous les plus grands guerriers, comme Son Goku, Végéta, Piccolo... Il a donc été créé dans le futur et est venu jusqu'à notre époque grâce à la machine à voyager de Trunks, le seul but de Cell est de trouver C-17 et C-18 que Trunks avait éliminé dans le futur afin de les absorber et de devenir l'être le plus puissant qui puisse exister dans l'univers."
+    Description:"Il a été créé à partir des cellules de tous les plus grands guerriers. Il a donc été créé dans le futur et est venu jusqu'à notre époque grâce à la machine à voyager de Trunks, le seul but de Cell est de trouver C-17 et C-18 afin de les absorber et de devenir l'être le plus puissant qui puisse exister dans l'univers."
   },
   {
     name: "Freezer",
@@ -59,7 +59,7 @@ const mechantList = [
   {
     name: "Piccolo daimao",
     imgSrc: "../../Images/méchants/piccolodaimao.jpg",
-    Description:"Piccolo Daimaô est l'entité maléfique créée lorsque le fils de Katatts chassa le mal de son cœur afin d'accéder au statut de dieu protecteur de la Terre."
+    Description:"Piccolo Daimaô est l'entité maléfique créée lorsque le fils de Katatts chassa le mal de son cœur afin d'accéder au statut de dieu protecteur de la Terre. Il est le premier adversaire de Goku et le père de Piccolo."
   },
 ];
 
@@ -94,31 +94,32 @@ function App() {
   return (
     <div>
       <Header />
-      <section>
+      <section id="perso">
       <div className="classgentils">
       <h1>Les gentils</h1>
       <article className="gentils">
-      <button type="button" onClick={handlePrevClick}>
+      <button className="Boutton" type="button" onClick={handlePrevClick}>
       ˂
       </button>
 
       <Gentils gentilsData={gentilList[gentilIndex]} />
-      <button type="button" onClick={handleNextClick}>
+      <button className="Boutton" type="button" onClick={handleNextClick}>
       ˃
       </button>
-      
       </article>
       </div>
+      <div>
       <h1>Les méchants</h1>
       <article className="mechants">
-      <button type="button" onClick={PrevClick}>
+      <button className="Boutton" type="button" onClick={PrevClick}>
       ˂
       </button>
       <Mechants mechantsData={mechantList[mechantIndex]} />
-      <button type="button" onClick={NextClick}>
+      <button className="Boutton" type="button" onClick={NextClick}>
       ˃
       </button>
       </article>
+      </div>
       </section>
       <CountDragonBall />
       <Footer />
