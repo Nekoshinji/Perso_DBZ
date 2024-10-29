@@ -2,6 +2,7 @@ interface gentilCardprops {
   gentilsData: {
     name: string;
     imgSrc?: string;
+    Description: string;
   };
 }
 
@@ -14,6 +15,7 @@ function gentilsCard({ gentilsData }: gentilCardprops) {
         <p>"???"</p>
       )}
       <figcaption>{gentilsData.name}</figcaption>
+      <p>{gentilsData.Description}</p>
     </section>
   );
 }
