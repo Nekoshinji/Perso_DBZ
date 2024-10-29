@@ -2,6 +2,7 @@ interface mechantCardprops {
   mechantsData: {
     name: string;
     imgSrc?: string;
+    Description: string;
   };
 }
 
@@ -14,6 +15,7 @@ function mechantsCard({ mechantsData }: mechantCardprops) {
         <p>"???"</p>
       )}
       <figcaption>{mechantsData.name}</figcaption>
+      <p>{mechantsData.Description}</p>
     </section>
   );
 }

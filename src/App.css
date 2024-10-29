@@ -1,4 +1,9 @@
-.Image {
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+img {
   width: 30em;
   height: 20em;
   border-radius: 5%;
@@ -12,6 +17,43 @@
   box-sizing: border-box;
   margin: 0;
 }
+figcaption {
+  margin-top: 1em;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+article.gentils {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1em;
+}
+
+article.mechants {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1em;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 5em;
+  color: green;
+}
+
 #header {
   background-color: rgb(247, 98, 5);
   text-align: center;
