@@ -10,7 +10,7 @@ function gentilsCard({ gentilsData }: gentilCardprops) {
   return (
     <section>
       {gentilsData.imgSrc !== undefined ? (
-        <img src={gentilsData.imgSrc} alt={gentilsData.name} />
+        <img className="Image"src={gentilsData.imgSrc} alt={gentilsData.name} />
       ) : (
         <p>"???"</p>
       )}

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import "./desktop.css"
 import Gentils from "./Compenents/Gentils";
 import Mechants from "./Compenents/Mechants";
 import Header from "./Compenents/Header";

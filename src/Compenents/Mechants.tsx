@@ -10,7 +10,7 @@ function mechantsCard({ mechantsData }: mechantCardprops) {
   return (
     <section>
       {mechantsData.imgSrc !== undefined ? (
-        <img src={mechantsData.imgSrc} alt={mechantsData.name} />
+        <img className="Image"src={mechantsData.imgSrc} alt={mechantsData.name} />
       ) : (
         <p>"???"</p>
       )}
