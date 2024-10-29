@@ -16,6 +16,7 @@ img {
 * {
   box-sizing: border-box;
   margin: 0;
+}
 figcaption {
   margin-top: 1em;
 }
