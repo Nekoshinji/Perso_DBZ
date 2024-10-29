@@ -47,5 +47,7 @@ export default tseslint.config({
     ...react.configs['jsx-runtime'].rules,
   },
 })
+
+Lien vers maquette Figma: https://www.figma.com/design/7YytDOAk5StykDyOd9rWqw/PERSOS-DBZ?node-id=0-1&node-type=canvas&t=el0TGHPvnzsc4cDm-0
 ```
 # Perso_DBZ
