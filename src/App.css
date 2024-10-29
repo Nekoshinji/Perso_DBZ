@@ -1,15 +1,12 @@
-img {
+.Image {
   width: 30em;
   height: 20em;
   border-radius: 5%;
 }
 
-@media screen and (width >= 600px) {
-  img {
-    width: 45em;
-    height: 35em;
-    border-radius: 5%;
-  }
+#Logo {
+  height: 4em;
+  width: 10em;
 }
 * {
   box-sizing: border-box;
@@ -19,10 +16,13 @@ img {
   background-color: rgb(247, 98, 5);
   text-align: center;
   padding: 2em 0;
+  margin-bottom: 2em;
 }
 #footer {
   background-color: rgb(247, 98, 5);
   text-align: center;
+  color: white;
+  padding: 3em;
 }
 #dragon-ball {
   height: 4em;
@@ -39,6 +39,9 @@ img {
   display: flex;
   justify-content: center;
   gap: 2em;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #shenron {
